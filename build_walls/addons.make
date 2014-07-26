@@ -1,0 +1,6 @@
+ofxXmlSettings
+ofxScreenGrab
+ofxSecondWindow
+ofxSyphon
+ofxUI
+ofxVideoMapping

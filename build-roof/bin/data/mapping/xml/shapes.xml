@@ -1,0 +1,54 @@
+<root>
+    <shape id="5">
+        <setting key="type">triangle</setting>
+        <outputVertices>
+            <vertex x="464" y="221"></vertex>
+            <vertex x="303" y="564"></vertex>
+            <vertex x="677" y="566"></vertex>
+        </outputVertices>
+        <inputPolygon>
+            <vertex x="690" y="400"></vertex>
+            <vertex x="640" y="500"></vertex>
+            <vertex x="740" y="500"></vertex>
+        </inputPolygon>
+    </shape>
+    <shape id="6">
+        <setting key="type">triangle</setting>
+        <outputVertices>
+            <vertex x="138" y="238"></vertex>
+            <vertex x="461" y="223"></vertex>
+            <vertex x="327" y="414"></vertex>
+        </outputVertices>
+        <inputPolygon>
+            <vertex x="690" y="400"></vertex>
+            <vertex x="640" y="500"></vertex>
+            <vertex x="740" y="500"></vertex>
+        </inputPolygon>
+    </shape>
+    <shape id="7">
+        <setting key="type">triangle</setting>
+        <outputVertices>
+            <vertex x="609" y="237"></vertex>
+            <vertex x="465" y="230"></vertex>
+            <vertex x="659" y="337"></vertex>
+        </outputVertices>
+        <inputPolygon>
+            <vertex x="690" y="400"></vertex>
+            <vertex x="640" y="500"></vertex>
+            <vertex x="740" y="500"></vertex>
+        </inputPolygon>
+    </shape>
+    <shape id="8">
+        <setting key="type">triangle</setting>
+        <outputVertices>
+            <vertex x="518" y="125"></vertex>
+            <vertex x="468" y="225"></vertex>
+            <vertex x="568" y="225"></vertex>
+        </outputVertices>
+        <inputPolygon>
+            <vertex x="55" y="498"></vertex>
+            <vertex x="5" y="598"></vertex>
+            <vertex x="558" y="569"></vertex>
+        </inputPolygon>
+    </shape>
+</root>
