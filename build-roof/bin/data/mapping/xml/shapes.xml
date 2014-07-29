@@ -7,9 +7,9 @@
             <vertex x="677" y="566"></vertex>
         </outputVertices>
         <inputPolygon>
-            <vertex x="690" y="400"></vertex>
-            <vertex x="640" y="500"></vertex>
-            <vertex x="740" y="500"></vertex>
+            <vertex x="644" y="373"></vertex>
+            <vertex x="247" y="750"></vertex>
+            <vertex x="1021" y="756"></vertex>
         </inputPolygon>
     </shape>
     <shape id="6">
@@ -20,9 +20,9 @@
             <vertex x="327" y="414"></vertex>
         </outputVertices>
         <inputPolygon>
-            <vertex x="690" y="400"></vertex>
-            <vertex x="640" y="500"></vertex>
-            <vertex x="740" y="500"></vertex>
+            <vertex x="644" y="374"></vertex>
+            <vertex x="260" y="31"></vertex>
+            <vertex x="1024" y="23"></vertex>
         </inputPolygon>
     </shape>
     <shape id="7">
@@ -33,9 +33,9 @@
             <vertex x="659" y="337"></vertex>
         </outputVertices>
         <inputPolygon>
-            <vertex x="690" y="400"></vertex>
-            <vertex x="640" y="500"></vertex>
-            <vertex x="740" y="500"></vertex>
+            <vertex x="641" y="374"></vertex>
+            <vertex x="252" y="40"></vertex>
+            <vertex x="246" y="747"></vertex>
         </inputPolygon>
     </shape>
     <shape id="8">
@@ -46,9 +46,9 @@
             <vertex x="568" y="225"></vertex>
         </outputVertices>
         <inputPolygon>
-            <vertex x="55" y="498"></vertex>
-            <vertex x="5" y="598"></vertex>
-            <vertex x="558" y="569"></vertex>
+            <vertex x="648" y="373"></vertex>
+            <vertex x="1026" y="758"></vertex>
+            <vertex x="1018" y="34"></vertex>
         </inputPolygon>
     </shape>
 </root>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "build-map2.app"
+               BuildableName = "build-roof2.app"
                BlueprintName = "build-roof2"
                ReferencedContainer = "container:build-roof.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "build-map2.app"
+            BuildableName = "build-roof2.app"
             BlueprintName = "build-roof2"
             ReferencedContainer = "container:build-roof.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "build-map2.app"
+            BuildableName = "build-roof2.app"
             BlueprintName = "build-roof2"
             ReferencedContainer = "container:build-roof.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "build-map2.app"
+            BuildableName = "build-roof2.app"
             BlueprintName = "build-roof2"
             ReferencedContainer = "container:build-roof.xcodeproj">
          </BuildableReference>

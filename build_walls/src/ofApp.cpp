@@ -11,7 +11,7 @@ void ofApp::setup(){
         mapping.addQuad(800, 600);
         canvas[i].setup(800, 600);
         ((DebugScreen *) canvas[i].getScene())->setIndex(i);
-        //canvas[i].addModifiers(1);
+        canvas[i].addModifiers(1);
         canvas[i].setGuiVisible(false);
     }
     
@@ -19,25 +19,20 @@ void ofApp::setup(){
         case JON:
             jon1 = new ProjectJon();
             jon1->setup(800, 600);
-            jon1->setImage(0);
+            jon1->setImage(3);
             jon2 = new ProjectJon();
             jon2->setup(800, 600);
-            jon2->setImage(1);
+            jon2->setImage(2);
             jon3 = new ProjectJon();
             jon3->setup(800, 600);
-            jon3->setImage(2);
+            jon3->setImage(0);
             jon4 = new ProjectJon();
             jon4->setup(800, 600);
-            jon4->setImage(3);
+            jon4->setImage(1);
             canvas[0].switchScene(jon1);
             canvas[1].switchScene(jon2);
             canvas[2].switchScene(jon3);
             canvas[3].switchScene(jon4);
-//            canvas[1].switchScene(jon2);
-//            canvas[2].switchScene(jon1);
-//            canvas[3].switchScene(jon2);
-//            canvas[2].switchScene(new ProjectJon());
-//            canvas[3].switchScene(new ProjectJon());
             break;
 
         case ANNE:
@@ -49,8 +44,23 @@ void ofApp::setup(){
             //canvas[1].switchScene(anne2);
             canvas[2].switchScene(anne1);
             canvas[3].switchScene(anne2);
-            
             break;
+            
+        case ISABELLE:
+            isabelle1 = new ProjectIsabelle();
+            isabelle1->setScreen(0);
+            isabelle2 = new ProjectIsabelle();
+            isabelle2->setScreen(1);
+            isabelle3 = new ProjectIsabelle();
+            isabelle3->setScreen(2);
+            isabelle4 = new ProjectIsabelle();
+            isabelle4->setScreen(3);
+            canvas[0].switchScene(isabelle1);
+            canvas[1].switchScene(isabelle2);
+            canvas[2].switchScene(isabelle3);
+            canvas[3].switchScene(isabelle4);
+            break;
+            
         case CHAOZZA:
             terri1 = new ProjectChaozza();
             terri1->setVideo(0);
@@ -83,7 +93,8 @@ void ofApp::update(){
         int t = ofGetElapsedTimef();
         if (t - last > timer) {
             last = t;
-            anne1->next(); anne2->next();
+            //anne1->next(); anne2->next();
+            isabelle1->next(); isabelle2->next();
         }
     }
     
@@ -93,7 +104,7 @@ void ofApp::update(){
 void ofApp::draw(){
     if(debugAll) {
         canvas[0].draw(0, 0);
-        canvas[1].draw(800, 0);
+        canvas[2].draw(800, 0);
     } else {
 
         gfx.begin();
@@ -106,7 +117,7 @@ void ofApp::draw(){
             mapping.end(i);
         }
         
-        //ofSetColor(255);//, 
+        //ofSetColor(255);//, l
         // adjust quads
         if (mapping.getDebug()) {
             ofCircle(ofMap(ofGetMouseX(), 0, ofGetWidth(), 0, 5120),
@@ -131,12 +142,12 @@ void ofApp::keyPressed(int key){
     else if (key=='2') {
         mapping.toggleSelectedQuad();
     }
-//    else if (key=='l') {
-//        mapping.loadPreset("quads.xml");
-//    }
-//    else if (key=='s') {
-//        mapping.savePreset("quads.xml");
-//    }
+    else if (key=='l') {
+        mapping.loadPreset("quads.xml");
+    }
+    else if (key=='s') {
+        mapping.savePreset("quads.xml");
+    }
 //    else if (key=='f') {
 //        ofToggleFullscreen();
 //    }
@@ -160,11 +171,22 @@ void ofApp::keyPressed(int key){
     }
     
     
-    else if (key=='a')  { jon1->toggleIdx(); }
-    else if (key=='s')  { jon2->toggleIdx(); }
-    else if (key=='d')  { jon3->toggleIdx(); }
-    else if (key=='f')  { jon4->toggleIdx(); }
-//    else if (key=='s')  { anne1->back(); anne2->back(); }
-//    
-    else if (key=='p') { playing = !playing; }
+//    else if (key=='a')  { jon1->toggleIdx(); }
+//    else if (key=='s')  { jon2->toggleIdx(); }
+//    else if (key=='d')  { jon3->toggleIdx(); }
+//    else if (key=='f')  { jon4->toggleIdx(); }
+
+    else if (key=='a')  { isabelle1->next(); isabelle2->next(); isabelle3->next(); isabelle4->next(); }
+    else if (key=='z')  { isabelle1->setMode(1); isabelle2->setMode(1); isabelle3->setMode(1); isabelle4->setMode(1); }
+    else if (key=='x')  { isabelle1->setMode(2); isabelle2->setMode(2); isabelle3->setMode(2); isabelle4->setMode(2); }
+
+    else if (key=='v') {
+        jon1->setImage(1);
+        jon2->setImage(0);
+    }
+    else if (key=='b') {
+        jon1->setImage(3);
+        jon2->setImage(2);
+    }
+//    else if (key=='p') { playing = !playing; }
 }

@@ -44,17 +44,6 @@
 		B085DC91197D93970082EC51 /* ofxSyphonServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B085DC87197D93970082EC51 /* ofxSyphonServer.mm */; };
 		B085DC92197D93970082EC51 /* ofxSyphonServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = B085DC89197D93970082EC51 /* ofxSyphonServerDirectory.mm */; };
 		B085DC9A197D93BF0082EC51 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B085DC99197D93BF0082EC51 /* Syphon.framework */; };
-		B085DD5A197E1FAC0082EC51 /* Canvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD43197E1FAC0082EC51 /* Canvas.cpp */; };
-		B085DD5B197E1FAC0082EC51 /* Modifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD45197E1FAC0082EC51 /* Modifier.cpp */; };
-		B085DD5C197E1FAC0082EC51 /* PostProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD47197E1FAC0082EC51 /* PostProcessor.cpp */; };
-		B085DD5D197E1FAC0082EC51 /* Agents.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD4C197E1FAC0082EC51 /* Agents.cpp */; };
-		B085DD5E197E1FAC0082EC51 /* DebugScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD4E197E1FAC0082EC51 /* DebugScreen.cpp */; };
-		B085DD5F197E1FAC0082EC51 /* MoviePlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD50197E1FAC0082EC51 /* MoviePlayer.cpp */; };
-		B085DD60197E1FAC0082EC51 /* Rivers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD52197E1FAC0082EC51 /* Rivers.cpp */; };
-		B085DD61197E1FAC0082EC51 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD54197E1FAC0082EC51 /* Scene.cpp */; };
-		B085DD62197E1FAC0082EC51 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD56197E1FAC0082EC51 /* Shader.cpp */; };
-		B085DD63197E1FAC0082EC51 /* Syphon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD58197E1FAC0082EC51 /* Syphon.cpp */; };
-		B085DD71197EDB8A0082EC51 /* Letters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DD6F197EDB890082EC51 /* Letters.cpp */; };
 		B085DDDF197EEEB10082EC51 /* ofxSecondWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DDDA197EEEB10082EC51 /* ofxSecondWindow.cpp */; };
 		B085DE54197F13E90082EC51 /* ofxMtlMapping2DControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DE2F197F13E90082EC51 /* ofxMtlMapping2DControls.cpp */; };
 		B085DE55197F13E90082EC51 /* ofxMtlMapping2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B085DE31197F13E90082EC51 /* ofxMtlMapping2D.cpp */; };
@@ -220,28 +209,6 @@
 		B085DC88197D93970082EC51 /* ofxSyphonServerDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSyphonServerDirectory.h; sourceTree = "<group>"; };
 		B085DC89197D93970082EC51 /* ofxSyphonServerDirectory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ofxSyphonServerDirectory.mm; sourceTree = "<group>"; };
 		B085DC99197D93BF0082EC51 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Syphon.framework; path = ../../../addons/ofxSyphon/libs/Syphon/lib/osx/Syphon.framework; sourceTree = "<group>"; };
-		B085DD43197E1FAC0082EC51 /* Canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Canvas.cpp; sourceTree = "<group>"; };
-		B085DD44197E1FAC0082EC51 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
-		B085DD45197E1FAC0082EC51 /* Modifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Modifier.cpp; sourceTree = "<group>"; };
-		B085DD46197E1FAC0082EC51 /* Modifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modifier.h; sourceTree = "<group>"; };
-		B085DD47197E1FAC0082EC51 /* PostProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PostProcessor.cpp; sourceTree = "<group>"; };
-		B085DD48197E1FAC0082EC51 /* PostProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostProcessor.h; sourceTree = "<group>"; };
-		B085DD4C197E1FAC0082EC51 /* Agents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Agents.cpp; sourceTree = "<group>"; };
-		B085DD4D197E1FAC0082EC51 /* Agents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agents.h; sourceTree = "<group>"; };
-		B085DD4E197E1FAC0082EC51 /* DebugScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DebugScreen.cpp; sourceTree = "<group>"; };
-		B085DD4F197E1FAC0082EC51 /* DebugScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugScreen.h; sourceTree = "<group>"; };
-		B085DD50197E1FAC0082EC51 /* MoviePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoviePlayer.cpp; sourceTree = "<group>"; };
-		B085DD51197E1FAC0082EC51 /* MoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
-		B085DD52197E1FAC0082EC51 /* Rivers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rivers.cpp; sourceTree = "<group>"; };
-		B085DD53197E1FAC0082EC51 /* Rivers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rivers.h; sourceTree = "<group>"; };
-		B085DD54197E1FAC0082EC51 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
-		B085DD55197E1FAC0082EC51 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
-		B085DD56197E1FAC0082EC51 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
-		B085DD57197E1FAC0082EC51 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
-		B085DD58197E1FAC0082EC51 /* Syphon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Syphon.cpp; sourceTree = "<group>"; };
-		B085DD59197E1FAC0082EC51 /* Syphon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syphon.h; sourceTree = "<group>"; };
-		B085DD6F197EDB890082EC51 /* Letters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Letters.cpp; sourceTree = "<group>"; };
-		B085DD70197EDB890082EC51 /* Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Letters.h; sourceTree = "<group>"; };
 		B085DDDA197EEEB10082EC51 /* ofxSecondWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxSecondWindow.cpp; sourceTree = "<group>"; };
 		B085DDDB197EEEB10082EC51 /* ofxSecondWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxSecondWindow.h; sourceTree = "<group>"; };
 		B085DE2F197F13E90082EC51 /* ofxMtlMapping2DControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMtlMapping2DControls.cpp; sourceTree = "<group>"; };
@@ -481,60 +448,6 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		B085DD40197E1FAC0082EC51 /* Canvas */ = {
-			isa = PBXGroup;
-			children = (
-				B085DD42197E1FAC0082EC51 /* src */,
-			);
-			name = Canvas;
-			path = ../../../tools/Canvas;
-			sourceTree = "<group>";
-		};
-		B085DD42197E1FAC0082EC51 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B085DD43197E1FAC0082EC51 /* Canvas.cpp */,
-				B085DD44197E1FAC0082EC51 /* Canvas.h */,
-				B085DD45197E1FAC0082EC51 /* Modifier.cpp */,
-				B085DD46197E1FAC0082EC51 /* Modifier.h */,
-				B085DD47197E1FAC0082EC51 /* PostProcessor.cpp */,
-				B085DD48197E1FAC0082EC51 /* PostProcessor.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		B085DD49197E1FAC0082EC51 /* VJ */ = {
-			isa = PBXGroup;
-			children = (
-				B085DD4B197E1FAC0082EC51 /* src */,
-			);
-			name = VJ;
-			path = ../../../tools/VJ;
-			sourceTree = "<group>";
-		};
-		B085DD4B197E1FAC0082EC51 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B085DD4C197E1FAC0082EC51 /* Agents.cpp */,
-				B085DD4D197E1FAC0082EC51 /* Agents.h */,
-				B085DD4E197E1FAC0082EC51 /* DebugScreen.cpp */,
-				B085DD4F197E1FAC0082EC51 /* DebugScreen.h */,
-				B085DD50197E1FAC0082EC51 /* MoviePlayer.cpp */,
-				B085DD51197E1FAC0082EC51 /* MoviePlayer.h */,
-				B085DD52197E1FAC0082EC51 /* Rivers.cpp */,
-				B085DD53197E1FAC0082EC51 /* Rivers.h */,
-				B085DD54197E1FAC0082EC51 /* Scene.cpp */,
-				B085DD55197E1FAC0082EC51 /* Scene.h */,
-				B085DD56197E1FAC0082EC51 /* Shader.cpp */,
-				B085DD57197E1FAC0082EC51 /* Shader.h */,
-				B085DD58197E1FAC0082EC51 /* Syphon.cpp */,
-				B085DD59197E1FAC0082EC51 /* Syphon.h */,
-				B085DD6F197EDB890082EC51 /* Letters.cpp */,
-				B085DD70197EDB890082EC51 /* Letters.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
 		B085DDC4197EEEB00082EC51 /* ofxSecondWindow */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,8 +574,6 @@
 				B085DE63197F14C50082EC51 /* ofxMSAInteractiveObject */,
 				B085DDE7197F13E80082EC51 /* ofxMtlMapping2D */,
 				B085DDC4197EEEB00082EC51 /* ofxSecondWindow */,
-				B085DD40197E1FAC0082EC51 /* Canvas */,
-				B085DD49197E1FAC0082EC51 /* VJ */,
 				B085DC5D197D93970082EC51 /* ofxSyphon */,
 				B05A32FA1974702200623347 /* Parameter */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
@@ -993,17 +904,6 @@
 				B085DC90197D93970082EC51 /* ofxSyphonClient.mm in Sources */,
 				B085DC91197D93970082EC51 /* ofxSyphonServer.mm in Sources */,
 				B085DC92197D93970082EC51 /* ofxSyphonServerDirectory.mm in Sources */,
-				B085DD5A197E1FAC0082EC51 /* Canvas.cpp in Sources */,
-				B085DD5B197E1FAC0082EC51 /* Modifier.cpp in Sources */,
-				B085DD5C197E1FAC0082EC51 /* PostProcessor.cpp in Sources */,
-				B085DD5D197E1FAC0082EC51 /* Agents.cpp in Sources */,
-				B085DD5E197E1FAC0082EC51 /* DebugScreen.cpp in Sources */,
-				B085DD5F197E1FAC0082EC51 /* MoviePlayer.cpp in Sources */,
-				B085DD60197E1FAC0082EC51 /* Rivers.cpp in Sources */,
-				B085DD61197E1FAC0082EC51 /* Scene.cpp in Sources */,
-				B085DD62197E1FAC0082EC51 /* Shader.cpp in Sources */,
-				B085DD63197E1FAC0082EC51 /* Syphon.cpp in Sources */,
-				B085DD71197EDB8A0082EC51 /* Letters.cpp in Sources */,
 				B085DDDF197EEEB10082EC51 /* ofxSecondWindow.cpp in Sources */,
 				B085DE54197F13E90082EC51 /* ofxMtlMapping2DControls.cpp in Sources */,
 				B085DE55197F13E90082EC51 /* ofxMtlMapping2D.cpp in Sources */,

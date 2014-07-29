@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "Parameter.h"
-#include "Canvas.h"
+//#include "Canvas.h"
 #include "ofxMtlMapping2D.h"
 #include "ofxSecondWindow.h"
 
@@ -18,7 +18,11 @@ public:
     void mousePressed(int x, int y, int button);
 
 private:
-    Canvas canvas;
+   // Canvas canvas;
     ofxMtlMapping2D* mapping;
     ofxSecondWindow gfx;
+    
+    ofImage bg, fg;
+    float x10 = 0;
+    float x20 = 0;
 };

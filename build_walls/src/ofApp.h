@@ -8,7 +8,7 @@
 #include "Projects.h"
 
 
-enum BuildType { VJ, JON, ANNE, CHAOZZA };
+enum BuildType { VJ, JON, ANNE, CHAOZZA, ISABELLE };
 
 
 
@@ -27,16 +27,16 @@ private:
 
     Canvas canvas[4];
 
-    BuildType type = JON;
+    BuildType type = VJ;
     
     ProjectAnne *anne1, *anne2;
     ProjectChaozza *terri1, *terri2, *terri3, *terri4;
     ProjectJon *jon1, *jon2, *jon3, *jon4;
+    ProjectIsabelle *isabelle1, *isabelle2, *isabelle3, *isabelle4;
     
     int timer = 25;
     int last;
-    bool playing = false;
-    
+    bool playing = false;    
     
     bool debugAll = false;
 };
